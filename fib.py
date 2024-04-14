@@ -1,5 +1,14 @@
+'''
+Fibonacci Number Generator
+Cantor
+Tanush Mittal
+'''
+
+
 def main():  
+    # Takes in user input, prints n fibonacci numbers
     num_terms = input("Enter number of Fibonacci terms: ")
+    # checks if input is valid
     valid = num_terms.isnumeric()
 
     if valid:
